@@ -51,7 +51,7 @@ footer {
 
 /* item */
 .item .panel-body {
-  height: 70px;
+  height: 120px;
 }
 .item .panel-heading {
   height: 250px;
@@ -59,6 +59,10 @@ footer {
 .item .panel-heading img {
   height: 100%;
   max-width: 100%;
+}
+.item .buttons form {
+  display: inline-block;
+  margin: 0 5px;
 }
 p.item-title {
    /* 文の行数を2行に保ち、最後に ... を追加するスタイル */
